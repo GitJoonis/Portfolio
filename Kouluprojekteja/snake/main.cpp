@@ -3,7 +3,7 @@
 # TIE-02207 Programming 2: Basics, S2019                           #
 #                                                                  #
 # Project1: Snake                                                  #
-# Program description: Implements a (broken) game called Snake.    #
+# Program description: Implements a game called Snake.    #
 #                                                                  #
 # File: main.cpp                                                   #
 # Description: Starts executing the program.                       #
