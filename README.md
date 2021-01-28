@@ -1,2 +1,2 @@
-# Portfolio
-Kouluprojekteja ja vapaa-ajan kyhäyksiä
+# Kouluprojekteja
+C++ projekteja kahdelta kurssilta
