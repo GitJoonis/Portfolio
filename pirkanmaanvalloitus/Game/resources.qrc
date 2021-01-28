@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/isometric_grass.png</file>
+        <file>images/isometric_water.png</file>
+        <file>images/redhighlight.png</file>
+        <file>images/isometric_stone.png</file>
+        <file>images/isometric_farm.png</file>
+        <file>images/isometric_grassv2.png</file>
+        <file>images/isometric_housev2.png</file>
+        <file>images/isometric_treev2.png</file>
+        <file>images/bridge.png</file>
+        <file>images/castle.png</file>
+        <file>images/isometric_waterv2.png</file>
+        <file>images/isometric_stonev2.png</file>
+        <file>images/market.png</file>
+        <file>images/sand.png</file>
+        <file>images/farmreadyv2.png</file>
+        <file>images/farmv2.png</file>
+        <file>images/waterBG.png</file>
+        <file>images/BG.png</file>
+        <file>images/isometric_waterv3.png</file>
+    </qresource>
+    <qresource prefix="/maps">
+        <file>maps/medium.txt</file>
+        <file>maps/small.txt</file>
+    </qresource>
+</RCC>
