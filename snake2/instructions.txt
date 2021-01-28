@@ -1,0 +1,55 @@
+####################################################################
+# TIE-02201 Ohjelmointi 2: Perusteet, K2019                        #
+# TIE-02207 Programming 2: Basics, S2019                           #
+#                                                                  #
+# Project4: Snake: The Revengeance                                 #
+# Program description: "While revenge is served cold and vengeance #
+#                       is served hot revengeance is often seen    #
+#                       served with Cajun with a side of onion     #
+#                       rings and often dumplings in the Orient."  #
+#                       - urbandictionary                          #
+#                                                                  #
+#                                                                  #
+# Author: Joona Nousiainen, 267048, joona.nousiainen@tuni.fi       #
+####################################################################
+
+
+Snake's head is the darkest rectangle surrounded by bright red border, other body parts are coloured gradiently going brighter towards the tail. Food is depicted as bright red eclipses.
+
+The snakes direction is changed by pressing the WASD -keys
+
+The game has 6 difficulty settings, ranging from 0 to 5.
+Difficulty affects the movement interval of the snake: interval = 1000ms - difficulty * 100ms
+ranging from 1000ms to 500ms
+The field height and width is also determined by difficulty: width/height = 3 + difficulty
+ranging from 3 to 8.
+Setting the difficulty to 5 means the snake can no longer pass through walls, and dies instead of going through to the other side of the playfield.
+
+The snake dies if either 5 minutes has passed or the snake collided with any other body part than its tail.
+
+After the game is over, the player is presented with information of time used and score gained. Each food eaten gives the player 50 score points. The player also has an option to either start a new game or quit playing.
+
+Settings must be changed before the first game is started, and can be changed again after starting a new game after dying/winning.
+
+The game can be paused by clicking the pause button, and resumed with the same button.
+
+Player can give an rng seed if he so chooses, using the rng seed settings next to play button.
+
+
+
+ADDITIONAL FEATURES:
+
+The game has different levels of difficulty, and the user can choose between them. (10 p.)
+
+
+The color of the snake varies piece by piece, for example, such that the shade of the head is the darkest one, and the shade becomes the lighter, the closer that part is to the tail. (10 p.)
+
+*The snake does not crash to the border of the game area, but it continues its moving by the back way again to the game area. (10 p.) 
+*(Only on difficulties less than 5)
+
+
+The game has a Pause button that enables the player to take a break. (5 p.)
+
+
+
+
